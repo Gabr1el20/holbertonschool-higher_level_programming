@@ -1,3 +1,3 @@
 #!/usr/bin/python3
-
-print("sammy has {} balloons".format(5))
+for letters in range(ord('a'), ord('z')+1):
+    print("{:c}" .format(letters), end='')
