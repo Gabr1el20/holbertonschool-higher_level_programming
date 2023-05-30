@@ -1,4 +1,4 @@
 #!/usr/bin/python3
-import string
-for c in string.ascii_lowercase:
-    print(c, end='')
+alf = "abcdefghijklmnopqrstuvwxyz"
+for c in range(len(alf)):
+    print(alf[c], end='')
