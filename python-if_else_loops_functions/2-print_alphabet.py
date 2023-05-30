@@ -1,4 +1,3 @@
 #!/usr/bin/python3
-alf = "abcdefghijklmnopqrstuvwxyz"
-for c in range(len(alf)):
-    print(alf[c], end='')
+for c in range(97,123):
+    print(c, end='')
