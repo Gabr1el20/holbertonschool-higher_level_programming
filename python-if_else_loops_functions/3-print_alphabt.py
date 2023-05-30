@@ -2,4 +2,4 @@
 for alph in range(97, 123):
     if alph == 101 or alph == 113:
         continue
-    print(f"{alph:c}", end='')
+    print("{:c}".format(alph), end='')
