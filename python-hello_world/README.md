@@ -1,8 +1,8 @@
-- [2-print.py](/2-print.py) - Python script that prints exactly '"Programmin is like building a multilingual puzzle'
-- [3-print_number.py](/3-print_number.py) - Print the integer stored in the variable number, followed by "Battery street"
-- [4-print_float.py](/4-print_float.py) - Print the float stored in the variable number, with a precision of 2 digits
-- [5-print_string.py](/5-print_string.py) - Print 3 times a string stored in the variable 'str', followe by its first 9 characters
-- [6-concat.py](/6-concat.py) - Concatenates two strings in order to print "Welcome to Holberton School!"
-- [7-edges.py](/7-edges.py) - Gets the first 3, last 2 and middle letters of a string
-- [8-concat_edges.py](/8-concat_edges.py) - Concatenates differents slides sections of a string, in order to print "object-oriented programming with Python".
-- [9-easter_egg.py](/9-easter_egg.py) - import this
+- [2-print.py](./2-print.py) - Python script that prints exactly '"Programmin is like building a multilingual puzzle'
+- [3-print_number.py](./3-print_number.py) - Print the integer stored in the variable number, followed by "Battery street"
+- [4-print_float.py](./4-print_float.py) - Print the float stored in the variable number, with a precision of 2 digits
+- [5-print_string.py](./5-print_string.py) - Print 3 times a string stored in the variable 'str', followe by its first 9 characters
+- [6-concat.py](./6-concat.py) - Concatenates two strings in order to print "Welcome to Holberton School!"
+- [7-edges.py](./7-edges.py) - Gets the first 3, last 2 and middle letters of a string
+- [8-concat_edges.py](./8-concat_edges.py) - Concatenates differents slides sections of a string, in order to print "object-oriented programming with Python".
+- [9-easter_egg.py](./9-easter_egg.py) - import this
