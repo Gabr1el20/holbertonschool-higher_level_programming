@@ -1,1 +1,13 @@
-Placeholder
+- [Positive anything is better than negative nothing](./0-positive_or_negative.py) - Python program that checks if a random number given is positive or negative.
+- [The last digit](./1-last_digit.py) - Python program that prints random number´s last digit.
+- [The alphabet game](./2-print_alphabet.py) - Prints the ASCII alphabet, in lowercase, now followed by a new line.
+- [Alphabt](./3-print_alphbt.py) - Prints the ASCII alphabet, in lowercase, not followed by a new line. Excluding 'e' and 'q' characters.
+- [Hexadecimal printing](./4-print_hexa.py) - Prints all numbers from 0 to 98 in decimal and hexadecimal (i.e: "0 = 0x0").
+- [00...99](./5-print_comb2.py) - A program that prints all the numbers from 0 to 99, with the numbers being separated by a ', '.
+- [The more brains you use, the less material you need](./6-print_comb3.py) - A program that prints all possible different combinations of two digits.
+- [Islower](./7-islower.py) - A function that checks for a lowercase character.
+- [To uppercase](./8-uppercase.py) - A function that prints a string in uppercase followed by a new line.
+- [Print the last digit](./9-print_last_digit.py) - A function that prints the last digit of a number.
+- [a + b](./10-add.py) - Function that returns the value of a + b.
+- [a ^ b](./11-pow.py) - A function that computes a to the power of b and return the value
+- [FizzBuzz](./12-fizzbuzz.py) - FizzBuzz.

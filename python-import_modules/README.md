@@ -1,1 +1,6 @@
-Placeholder
+- [Import a simple function from a simple file](./0-add.py) - A program that imports the function ```def add(a, b)``` and prints the results of the addition ```1 + 2 = 3``` (1 is a, 2 is b).
+- [My first toolbox!](./1-calculation.py) - A program that imports function from the file ```calculator_1.py```, does some Maths, and prints the result.
+- [How to make a script dynamic!](./2-args.py) - A program that prints the number of and the list of its arguments.
+- [Infinite addition](./3-infinite_add.py) - A program that prints the result of the addition of all arguments.
+- [Who are you?](./4-hidden_discovery.py) - A program that prints all the names defined by a compiled module (only the files that do NOT start wit '__').
+- [Everything can be imported](./5-variable_load.py) - A program thar imports the variable 'a' from the file ```variable_load_5.py``` and prints it value.
