@@ -5,6 +5,6 @@ def max_integer(my_list=[]):
         return
     biggest = None
     for comparator in my_list:
-        if biggest == None or biggest < comparator:
+        if biggest is None or biggest < comparator:
             biggest = comparator
     return biggest
