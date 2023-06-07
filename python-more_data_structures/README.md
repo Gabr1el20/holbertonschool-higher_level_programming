@@ -1,1 +1,13 @@
-Placeholder
+- [Squared simple](./0-squared_matrix_simple.py) - Computes the square value of all integers of a matrix.
+- [Search and replace](./1-search_replace.py) - Replaces all occurrences of an element by another in a new list.
+- [Unique addition](./2-uniq_add.py) - Adds all unique integers in a list(only once for each integer).
+- [Present in both](./3-common_elements.py) - Returns a set of common elements in two sets.
+- [Only differents](./4-only_diff_elements.py) - Returns a set of all elements present in only one set.
+- [Number of keys](./5-number_keys.py) - Returns the number of keys in a dictionary.
+- [Print sorted dictionary](./6-print_sorted_dictionary.py) - Prints a dictionary by ordered keys.
+- [Update dictionary](./7-update_dictionary.py) - Replaces or adds key/value in a dictionary.
+- [Simple delete by key](./8-simple_delete.py) - Deletes a key in a dictionary.
+- [Multiply by 2](./9-multiply_by_2.py) - Returns a new dictionary with all values multiplied by 2.
+- [Best score](./10-best_score.py) - Returns a key with the biggest integer value.
+- [Multiply by using map](./11-multiply_by_using_map.py) - Returns a list with all values multiplied by a number without using any loops.
+- [Roman to Integer](./12-roman_to_int.py) - A function ```def roman_to_in(roman_string):``` that converts a Roman numeral to an integer.
