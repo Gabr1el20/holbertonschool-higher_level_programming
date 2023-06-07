@@ -1,1 +1,13 @@
-Placeholder
+- [Print a list of integers](./0-print_list_integer.py) - A function that prints all integers of a list.
+- [Secure access to an element of a list](./1-element_at.py) - A function that retrieves an element from a list.
+- [Replace element](./2-replace_in_list.py) - Replaces an element of a list at a specific position.
+- [Print a list of integers... in reverse!](./3-print_reversed_list_integer.py) - Prints all integers of a list, in reverse order.
+- [Replace in a copy](./4-new_in_list.py) - Replaces an element in a list at a specific index without modifying the OG list.
+- [Can you C me now?](./5-no_c.py) - Removes all characters ```c``` and ```C``` from a string.
+- [List of lists = Matrix](./6-print_matrix_integer.py) - Prints a matrix of integers.
+- [Tuples addition](./7-add_tuple.py) - Adds 2 tuples.
+- [More returns!](./8-multiple_returns.py) - Returns a tuple with the length of a string and its first character.
+- [Find the max](./9-max_integer.py) - Find the max.
+- [Only by 2](./10-divisible_by_2.py) - Finds all multiples of 2 in a list.
+- [Delete at](./11-delete_at.py) - Deletes the item at a specific position in a list.
+- [Switch](./12-switch.py) - Switch value of ```a``` and ```b```.
