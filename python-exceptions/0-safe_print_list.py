@@ -7,7 +7,7 @@ def safe_print_list(my_list=[], x=0):
             print("{}".format(my_list[num]), end="")
     #If an execption occurs, update the value of x to be equal to the lenght of my_list
     except Exception:
-        x = len(my_list)
+        pass
     #Finally, print a None (to handle the \n) and return x
     finally:
         print()
