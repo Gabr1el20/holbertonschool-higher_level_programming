@@ -47,12 +47,14 @@ class Square:
         "Print method"
         if self.__size == 0:
             print()
-        for w in range(self.__position[1]):
+        for newLines in range(self.__position[1]):
             if self.__position[1] >= 0:
                 print()
-        for i in range(self.__size):
-            for k in range(self.__position[0]):
+        for columns in range(self.__size):
+            for spaces in range(self.__position[0]):
                 print(" ", end="")
-            for x in range(self.__size):
+            for rows in range(self.__size):
                 print("#", end="")
-            print()
+            if columns + 1 < self.__size:
+                print()
+        print()
