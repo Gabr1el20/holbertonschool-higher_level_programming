@@ -55,6 +55,4 @@ class Square:
                 print(" ", end="")
             for rows in range(self.__size):
                 print("#", end="")
-            if columns + 1 < self.__size:
-                print()
-        print()
+            print()
