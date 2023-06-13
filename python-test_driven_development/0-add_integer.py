@@ -4,6 +4,8 @@
 
 def add_integer(a, b=98):
     "Adds 2 integer"
+    if a == float('inf') or a == float('-inf'):
+        raise OverflowError("cannot convert float infinity to integer.")
     if type(a) is float:
         a = int(a)
     if type(b) is float:
