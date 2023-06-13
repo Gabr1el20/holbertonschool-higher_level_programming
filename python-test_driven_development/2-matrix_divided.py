@@ -1,6 +1,6 @@
 #!/usr/bin/python3
 def matrix_divided(matrix, div):
-    "Divided a matrix"
+    "Divides a matrix elements by div"
     errore = "matrix must be a matrix (list of lists) of integers/floats"
     if not isinstance(div, (int, float)):
         raise TypeError("div must be a number")
