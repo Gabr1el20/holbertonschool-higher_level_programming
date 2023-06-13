@@ -5,6 +5,6 @@ matrix = [
     [8],
     [8]
 ]
-print(matrix_divided(matrix, 2))
+print(matrix_divided(None, 2))
 print(matrix)
 
