@@ -10,8 +10,7 @@ def text_indentation(text):
         raise TypeError("text must be a string")
     for i in range(len(text)):
         if text[i - 1] in {".", "?", ":"}:
-            print()
-            print()
+            print(text[i] + "\n")
             SpaceCheck = True
         if SpaceCheck:
             if i < len(text) - 1 and text[i + 1] == " ":
