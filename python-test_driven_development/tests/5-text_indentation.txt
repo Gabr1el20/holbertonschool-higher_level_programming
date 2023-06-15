@@ -34,4 +34,4 @@ TypeError: text_indentation() takes 1 positional argument but 2 were given
 
 
 >>> text_indentation("      6")
-      6
+6
