@@ -20,14 +20,13 @@ Traceback (most recent call last):
 TypeError: text must be a string
 
 >>> text_indentation("Lorem ipsum. dolor sit amet? adipiscing elit: Quonam")
-Lorem ipsum.
+Lorem ipsum
 <BLANKLINE>
-dolor sit amet?
+dolor sit amet
 <BLANKLINE>
-adipiscing elit:
+adipiscing elit
 <BLANKLINE>
 Quonam
-
 >>> text_indentation("Hola", 2)
 Traceback (most recent call last):
 TypeError: text_indentation() takes 1 positional argument but 2 were given

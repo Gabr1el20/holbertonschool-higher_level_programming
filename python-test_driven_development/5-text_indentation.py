@@ -1,21 +1,23 @@
 #!/usr/bin/python3
-'''Task 4'''
+"Task 4"
 
 
 def text_indentation(text):
     '''Prints a text with 2 new lines after each of
-    these character: ".", "?" and ":"'''
-    SpaceCheck = False
+    these characters: ".", "?" and ":"'''
+
     if not isinstance(text, str):
         raise TypeError("text must be a string")
+
+    space_check = False
     for i in range(len(text)):
-        if text[i - 1] in {".", "?", ":"}:
+        if text[i] in {".", "?", ":"}:
             print()
             print()
-            SpaceCheck = True
-        if SpaceCheck:
+            space_check = True
+        if space_check:
             if i < len(text) - 1 and text[i + 1] == " ":
                 continue
-            SpaceCheck = False
+            space_check = False
         else:
             print(text[i], end="")
