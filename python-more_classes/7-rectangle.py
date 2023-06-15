@@ -66,10 +66,10 @@ class Rectangle():
         nString = ""
         for i in range(self.__height):
             for j in range(self.__width):
-                if type(self.print_symbol) is str:
-                    nString += self.print_symbol
-                else:
-                    nString = str(self.print_symbol)
+                try:
+                    nString += str(self.print_symbol)
+                except TypeError:
+                    nString += type(self.print_symbol)
             if i < (self.__height) - 1:
                 nString += "\n"
         return nString
