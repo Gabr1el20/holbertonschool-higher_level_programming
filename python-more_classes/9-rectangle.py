@@ -98,6 +98,6 @@ class Rectangle():
     def square(cls, size=0):
         "Returns a new Rectangle instance with same width, height and size"
         newObj = cls()
-        newObj.height = size
         newObj.width = size
+        newObj.height = size
         return newObj
