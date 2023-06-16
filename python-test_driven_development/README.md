@@ -1,2 +1,6 @@
-Placeholder
-sasad
+-  [Integers addition](./0-add_integer.py): Adds two integers.
+-  [Divide a matrix](./2-matrix_divided.py): Divides all elements of a matrix.
+-  [Say my name](./3-say_my_name.py): Prints ```My name is <first_name> <last_name>```
+-  [Print square](./4-print_square.py): Prints a square with the character ```#```.
+-  [Text indentation](./5-text_indentation.py): Prints a text with 2 new lines after each of these characters: ```.```, ```?``` and ```:```.
+-  [Max integer - Unnittest](./tests/6-max_integer_test.py): Unittest for the function ```def max_integer(list=[]):```.
