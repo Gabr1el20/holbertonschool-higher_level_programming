@@ -1,1 +1,9 @@
-Placeholder
+-  [Safe list printing](./0-safe_list_print.py): Prints x elements of a list.
+-  [Safe printing of an integers list](./1-safe_print_integer.py): Prints an integer with ```{:d}.format()```
+-   [Print and count integers](./2-safe_print_list_integers.py): Prints the first x elements of a list and only integers.
+-   [Integers division with debug](./3-safe_print_division.py): Divides 2 integers and prints the result.
+-   [Divide a list](./4-list_division.py): Divides element by element 2 lists.
+-   [Raise exception](./5-raise_exception.py): Raises a type exception.
+-   [Raise a message](./6-raise_exception_msg.py): Raises a name exception with a message.
+-   [Safe integer print with error message](./100-safe_print_integer_err.py): Prints an integer, return False an print in ```stderr``` the error precede by ```Exception:```.
+-   [Safe function](./101-safe_function.py): Executes a function safely.
