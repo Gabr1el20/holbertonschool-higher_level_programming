@@ -17,7 +17,6 @@ def list_division(my_list_1, my_list_2, list_length):
             errorList.append("out of range")
             newList.append(0)
         finally:
-            pass
-    for e in errorList:
-        print(e)
+            for e in errorList:
+                print(e)
     return newList
