@@ -40,7 +40,7 @@ Using ``{function}``
     Traceback (most recent call last):
     TypeError: integer_validator() missing 1 required positional argument: 'value'
 
-    --- Passing none of the args ---
+    --- Passing no args ---
     >>> bg.integer_validator()
     Traceback (most recent call last):
     TypeError: integer_validator() missing 2 required positional arguments: 'name' and 'value'
@@ -72,3 +72,13 @@ Using ``{function}``
     >>> bg.integer_validator("", 0)
     Traceback (most recent call last):
     ValueError:  must be greater than 0
+
+    --- Passing a bool ---
+    >>> bg.integer_validator("Jon", False)
+    Traceback (most recent call last):
+    TypeError: Jon must be an integer
+
+        --- Passing a set as second arg ---
+    >>> bg.integer_validator("Jon", {1, 2})
+    Traceback (most recent call last):
+    TypeError: Jon must be an integer
