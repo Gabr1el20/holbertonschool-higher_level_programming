@@ -44,3 +44,8 @@ Using ``{function}``
     >>> bg.integer_validator()
     Traceback (most recent call last):
     TypeError: integer_validator() missing 2 required positional arguments: 'name' and 'value'
+
+    --- Passing none ---
+    >>> bg.integer_validator("Jon", [1, 2, 3])
+    Traceback (most recent call last):
+    TypeError: Jon must be an integer
