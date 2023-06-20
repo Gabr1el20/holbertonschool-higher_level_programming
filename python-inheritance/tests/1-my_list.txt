@@ -6,13 +6,24 @@
 >>> l.append(3)
 >>> l.append(5)
 >>> l.append(2)
+>>> print(l)
+[1, 4, 3, 5, 2]
+
 >>> l.print_sorted()
 [1, 2, 3, 4, 5]
 
 >>> nlist = MyList()
+>>> print(nlist)
+[]
+
 >>> nlist.print_sorted()
 []
->>> nlist.append(-1)
+
 >>> nlist.append(1)
+>>> nlist.append(-1)
+>>> print(nlist)
+[1, -1]
+
 >>> nlist.print_sorted()
 [-1, 1]
+
