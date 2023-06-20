@@ -1,4 +1,4 @@
-The ``7-base_geometry`` module
+The `7-base_geometry` module
 ======================
 
 Using ``{function}``
@@ -38,9 +38,9 @@ Using ``{function}``
     --- passing not the 2nd arg ---
     >>> bg.integer_validator("Jon")
     Traceback (most recent call last):
-    TypeError: integer_validator() takes exactly 3 arguments (2 given)
+    TypeError: integer_validator() missing 1 required positional argument: 'value'
 
     --- Passing none of the args ---
     >>> bg.integer_validator()
     Traceback (most recent call last):
-    TypeError: integer_validator() takes exactly 3 arguments (1 given)
+    TypeError: integer_validator() missing 2 required positional arguments: 'name' and 'value'
