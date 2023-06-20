@@ -45,7 +45,30 @@ Using ``{function}``
     Traceback (most recent call last):
     TypeError: integer_validator() missing 2 required positional arguments: 'name' and 'value'
 
-    --- Passing none ---
+    --- Passing a list ---
     >>> bg.integer_validator("Jon", [1, 2, 3])
     Traceback (most recent call last):
     TypeError: Jon must be an integer
+
+    --- Passing None as second arg ---
+    >>> bg.integer_validator("Jon", None)
+    Traceback (most recent call last):
+    TypeError: Jon must be an integer
+
+    --- Passing a tuple ---
+    >>> bg.integer_validator("Jon", (1, 2))
+    Traceback (most recent call last):
+    TypeError: Jon must be an integer
+
+    --- Passing an empty string ---
+    >>> bg.integer_validator("", 5)
+
+    --- Passing an empty string, but with exceptions ---
+    >>> bg.integer_validator("", "8")
+    Traceback (most recent call last):
+    TypeError:  must be an integer
+
+    --- Passing an empty string, but with exceptions ---
+    >>> bg.integer_validator("", 0)
+    Traceback (most recent call last):
+    ValueError:  must be greater than 0
