@@ -1,42 +1,38 @@
 >>> MyList = __import__('1-my_list').MyList
 
->>> nlist = MyList()
->>> nlist.append(1)
->>> nlist.append(4)
->>> nlist.append(3)
->>> nlist.append(5)
->>> nlist.append(2)
->>> print(nlist)
-[1, 4, 3, 5, 2]
+>>> my_list = MyList()
+>>> my_list.append(1)
+>>> my_list.append(4)
+>>> my_list.append(2)
+>>> my_list.append(3)
+>>> my_list.append(5)
+>>> print(my_list)
+[1, 4, 2, 3, 5]
 
->>> nlist.print_sorted()
+>>> my_list.print_sorted()
 [1, 2, 3, 4, 5]
 
->>> nlist = MyList()
->>> nlist.append(-1)
->>> nlist.append(-2)
->>> nlist.append(-3)
->>> nlist.append(-4)
->>> nlist.append(-5)
->>> print(nlist)
+>>> print(my_list)
+[1, 4, 2, 3, 5]
+
+>>> my_list = MyList()
+>>> my_list.append(-1)
+>>> my_list.append(-2)
+>>> my_list.append(-3)
+>>> my_list.append(-4)
+>>> my_list.append(-5)
+>>> print(my_list)
 [-1, -2, -3, -4, -5]
 
->>> nlist.print_sorted()
+>>> my_list.print_sorted()
 [-5, -4, -3, -2, -1]
 
->>> nlist = MyList()
->>> print(nlist)
+>>> print(my_list)
+[-1, -2, -3, -4, -5]
+
+>>> my_list = MyList()
+>>> print(my_list)
 []
 
->>> nlist.print_sorted()
+>>> my_list.print_sorted()
 []
-
->>> nlist = MyList()
->>> nlist.append(-1)
->>> nlist.append(-2)
->>> nlist.append(-3)
->>> nlist.append(-4)
->>> nlist.append("HOLA")
->>> print(nlist)
-[-1, -2, -3, -4, 'HOLA']
-
