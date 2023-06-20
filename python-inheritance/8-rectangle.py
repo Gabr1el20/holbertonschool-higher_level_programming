@@ -1,8 +1,8 @@
 #!/usr/bin/python3
 "Task 8"
-
-
 BaseGeometry = __import__('7-base_geometry').BaseGeometry
+
+
 class Rectangle(BaseGeometry):
     "A rectangle that is subclass of basegeometry"
     def __init__(self, width, height):
