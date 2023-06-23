@@ -11,6 +11,9 @@ def pascal_triangle(n):
     Returns:
         List: with the values of the Pascal's triangle
     """
+    if n <= 0:
+        return []
+
     pascal = [[1]]
     while len(pascal) != n:
         iterated = pascal[-1]
