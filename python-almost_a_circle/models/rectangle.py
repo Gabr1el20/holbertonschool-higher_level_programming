@@ -38,7 +38,7 @@ class Rectangle(Base):
         "Width setter"
         self.__width = value
 
-    @width.setter
+    @height.setter
     def height(self, value):
         "Height setter"
         self.__height = value
