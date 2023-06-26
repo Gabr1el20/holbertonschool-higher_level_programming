@@ -52,6 +52,5 @@ class Base():
             newby = cls(5, 5)
         else:
             newby = cls(5)
-        for k, v in dictionary.items():
-            setattr(newby, k, v)
+        newby.update(**dictionary)
         return newby
