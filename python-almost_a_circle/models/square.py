@@ -46,6 +46,7 @@ class Square(Rectangle):
                 setattr(self, k, v)
 
     def to_dictionary(self):
+        "Placeholder"
         aux_list = ["id", "size", "x", "y"]
         dicto = {}
         for i in aux_list:
