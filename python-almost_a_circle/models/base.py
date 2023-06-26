@@ -44,3 +44,14 @@ class Base():
         if json_string is None or len(json_string) == 0:
             return []
         return json.loads(json_string)
+
+    @classmethod
+    def create(cls, **dictionary):
+        "Returns an instance with all attrs already set"
+        if cls.__name__ == "Rectangle":
+            newby = cls(5, 5)
+        else:
+            newby = cls(5)
+        for k, v in dictionary.items():
+            setattr(newby, k, v)
+        return newby
