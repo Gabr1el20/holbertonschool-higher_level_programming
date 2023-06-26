@@ -47,11 +47,9 @@ class Square(Rectangle):
 
     def to_dictionary(self):
         "Placeholder"
-        aux_list = ["id", "size", "x", "y"]
-        dicto = {}
-        for i in aux_list:
-            if i == "size":
-                dicto[i] = getattr(self, "width")
-            else:
-                dicto[i] = getattr(self, i)
-        return dicto
+        return {
+            'id': self.id,
+            'size': self.width,
+            'x': self.x,
+            'y': self.y
+        }
