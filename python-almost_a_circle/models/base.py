@@ -25,7 +25,7 @@ class Base():
     @classmethod
     def save_to_file(cls, list_objs):
         "Writes the JSON str repr of list_objs to a file"
-        file_to_write = f"{cls.__name__}.json"
+        file_to_write = "{}.json".format(cls.__name__)
         to_dict_list = []
         if not list_objs:
             pass
