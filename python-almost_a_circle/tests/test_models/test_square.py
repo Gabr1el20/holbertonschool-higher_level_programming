@@ -15,7 +15,8 @@ class Test_init(unittest.TestCase):
 
     def test_one_and_only_arg(self):
         s5 = Square(10)
-        self.assertEqual(s5.id, 3)
+        s6 = Square(20)
+        self.assertEqual(s5.id, s6.id - 1)
 
     def test_two_args(self):
         s1 = Square(10, 10)
