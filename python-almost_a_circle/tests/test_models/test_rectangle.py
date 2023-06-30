@@ -24,7 +24,12 @@ class Test_init(unittest.TestCase):
         angle = Rectangle(12, 6)
         self.assertEqual(rect.id, angle.id - 1)
 
-    def test_three_args(self):
-        rect = Rectangle(8, 4, 0)
-        angle = Rectangle(12, 6, 1)
+    def test_four_args(self):
+        rect = Rectangle(8, 4, 0, 1)
+        angle = Rectangle(12, 6, 1, 2)
         self.assertEqual(rect.id, angle.id - 1)
+
+    def test_five_args(self):
+        rect = Rectangle(8, 4, 0, 0, 7)
+        angle = Rectangle(12, 6, 1, 1, 8)
+        self.assertEqual(7, rect.id)
