@@ -19,12 +19,12 @@ class Test_init(unittest.TestCase):
         with self.assertRaises(TypeError):
             Rectangle(1)
 
-    def two_rectangles_id(self):
+    def test_two_rectangles_id(self):
         rect = Rectangle(8, 4)
         angle = Rectangle(12, 6)
         self.assertEqual(rect.id, angle.id - 1)
 
-    def three_args(self):
+    def test_three_args(self):
         rect = Rectangle(8, 4, 0)
         angle = Rectangle(12, 6, 1)
         self.assertEqual(rect.id, angle.id - 1)
