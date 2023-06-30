@@ -33,3 +33,35 @@ class Test_init(unittest.TestCase):
         rect = Rectangle(8, 4, 0, 0, 7)
         angle = Rectangle(12, 6, 1, 1, 8)
         self.assertEqual(7, rect.id)
+
+    def test_width_getter(self):
+        rect = Rectangle(2, 2)
+        self.assertEqual(rect.width, 2)
+
+    def test_height_getter(self):
+        rect = Rectangle(2, 2)
+        self.assertEqual(rect.height, 2)
+
+    def test_x_getter(self):
+        rect = Rectangle(2, 2, 4)
+        self.assertEqual(rect.x, 4)
+
+    def test_y_getter(self):
+        rect = Rectangle(2, 2, 4, 5)
+        self.assertEqual(rect.y, 5)
+
+    def test_width_access(self):
+        with self.assertRaises(AttributeError):
+            Rectangle(1, 2, 3, 4).__width
+
+    def test_height_access(self):
+        with self.assertRaises(AttributeError):
+            Rectangle(1, 2, 3, 4).__height
+
+    def test_x_access(self):
+        with self.assertRaises(AttributeError):
+            Rectangle(1, 2, 3, 4).__x
+
+    def test_y_access(self):
+        with self.assertRaises(AttributeError):
+            Rectangle(1, 2, 3, 4).__y
