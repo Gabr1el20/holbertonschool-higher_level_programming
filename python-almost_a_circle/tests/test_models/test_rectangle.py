@@ -65,3 +65,39 @@ class Test_init(unittest.TestCase):
     def test_y_access(self):
         with self.assertRaises(AttributeError):
             Rectangle(1, 2, 3, 4).__y
+
+
+class test_input_validation(unittest.TestCase):
+    "Tests suite for input validation"
+
+    def test_width_notInt(self):
+        with self.assertRaises(TypeError):
+            rect = Rectangle("Jon", 2)
+
+    def test_height_notInt(self):
+        with self.assertRaises(TypeError):
+            rect = Rectangle(1, "Snow")
+
+    def test_x_notInt(self):
+        with self.assertRaises(TypeError):
+            rect = Rectangle(1, 2, "Winterfell")
+
+    def test_y_notInt(self):
+        with self.assertRaises(TypeError):
+            rect = Rectangle(1, 2, 3, "RedWedding")
+
+    def test_width_underEqual_0(self):
+        with self.assertRaises(ValueError):
+            rect = Rectangle(0, 1)
+
+    def test_height_underEqual_0(self):
+        with self.assertRaises(ValueError):
+            rect = Rectangle(1, 0)
+
+    def test_x_under0(self):
+        with self.assertRaises(ValueError):
+            rect = Rectangle(1, 2, -1)
+
+    def test_y_under0(self):
+        with self.assertRaises(ValueError):
+            rect = Rectangle(1, 2, 3, -1)
