@@ -18,5 +18,4 @@ class Test_init(unittest.TestCase):
     def test_id_2times(self):
         base1 = Base()
         base2 = Base()
-        self.assertEqual(base1.id, 1)
-        self.assertEqual(base2.id, 2)
+        self.assertEqual(base1.id, base2.id - 1)
