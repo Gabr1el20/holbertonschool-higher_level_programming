@@ -15,10 +15,7 @@ if __name__ == "__main__":
                 WHERE states.name = '{}'
                 ORDER BY cities.id'''.format(sys.argv[4]))
     fetchs = cur.fetchall()
-    for x in range(len(fetchs)):
-        if x < len(fetchs) - 1:
-            print(f'{fetchs[x][0]}, ', end="")
-        else:
-            print(f'{fetchs[x][0]}')
+    if fetchs is not None:
+        print(", ".join([x[0] for x in fetchs]))
 
     db.close()
