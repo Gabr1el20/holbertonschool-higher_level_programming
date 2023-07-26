@@ -12,6 +12,6 @@ if __name__ == "__main__":
     fetchs = cur.fetchall()
     for x in range(len(fetchs)):
         if fetchs[x][1] == sys.argv[4]:
-            print(fetchs[x])
+            print("{}".format(fetchs[x]))
 
     db.close()
