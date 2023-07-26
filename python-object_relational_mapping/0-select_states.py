@@ -1,4 +1,5 @@
 #!/usr/bin/python3
+"This script lists all states from the db 'hbtn_0e_usa'"
 import MySQLdb
 import sys
 if __name__ == "__main__":
