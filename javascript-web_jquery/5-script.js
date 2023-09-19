@@ -1,6 +1,6 @@
 $('#add_item').click(() => {
-    $('<li></li>').text('Item').appendTo('.my_list');
-})
+  $('<li></li>').text('Item').appendTo('.my_list');
+});
 
 /* Another version
 $('#add_item').click(() => {
