@@ -1,3 +1,4 @@
+const $ = window.$;
 $('#add_item').click(() => {
   $('<li></li>').text('Item').appendTo('.my_list');
 });

@@ -1,3 +1,4 @@
+const $ = window.$;
 $(document).ready(function () {
   $('#btn_translate').click(() => {
     const val = $('#language_code').prop('value');

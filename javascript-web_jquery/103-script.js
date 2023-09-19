@@ -1,3 +1,4 @@
+const $ = window.$;
 $(document).ready(function () {
   $('#btn_translate').click(() => {
     const val = $('#language_code').prop('value');
@@ -13,7 +14,9 @@ $(document).ready(function () {
   /* Now it's time to handle the ENTER key press event */
   $('#language_code').keypress(function (event) {
     const keycode = (event.keyCode ? event.keyCode : event.which);
+    /*eslint-disable*/
     if (keycode == '13') {
+    /* eslint-enable */
       const val = $('#language_code').prop('value');
       $.get(`https://hellosalut.stefanbohacek.dev/?lang=${val}`, (data) => {
       /* What happens here is that in some languages, the response comes in html format.
